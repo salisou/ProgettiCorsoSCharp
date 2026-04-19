@@ -1,0 +1,66 @@
+[
+  {
+    "NomeCorso": "Informatica",
+    "Descrizione": "Il corso approfondisce programmazione, reti, sistemi informatici, sviluppo software e gestione dei dati, preparando a professioni tecniche e universitarie nel settore ICT."
+  },
+  {
+    "NomeCorso": "Elettronica ed Elettrotecnica",
+    "Descrizione": "Percorso dedicato allo studio dei sistemi elettrici, elettronici e di automazione, con competenze su impianti, circuiti e tecnologie industriali."
+  },
+  {
+    "NomeCorso": "Meccanica, Meccatronica ed Energia",
+    "Descrizione": "Forma tecnici in progettazione meccanica, sistemi meccatronici, automazione e gestione dell’energia, con forte orientamento alla produzione industriale."
+  },
+  {
+    "NomeCorso": "Amministrazione, Finanza e Marketing",
+    "Descrizione": "Indirizzo economico che sviluppa competenze in gestione aziendale, contabilità, marketing, diritto e organizzazione d’impresa."
+  },
+  {
+    "NomeCorso": "Turismo",
+    "Descrizione": "Percorso orientato alla valorizzazione del territorio, gestione delle attività turistiche, comunicazione e servizi per il turismo nazionale e internazionale."
+  },
+  {
+    "NomeCorso": "Liceo Scientifico",
+    "Descrizione": "Offre una solida preparazione in matematica, fisica e scienze, con un forte impianto umanistico, ideale per percorsi universitari scientifici."
+  },
+  {
+    "NomeCorso": "Liceo Classico",
+    "Descrizione": "Approfondisce latino, greco, filosofia e discipline umanistiche, sviluppando capacità logiche, critiche e linguistiche di alto livello."
+  },
+  {
+    "NomeCorso": "Liceo Linguistico",
+    "Descrizione": "Specializzato nello studio di più lingue straniere, con competenze comunicative, culturali e relazionali utili in ambito internazionale."
+  },
+  {
+    "NomeCorso": "Liceo Artistico",
+    "Descrizione": "Percorso creativo che unisce discipline artistiche, progettazione, storia dell’arte e tecniche visive, preparando a professioni nel design e nelle arti."
+  },
+  {
+    "NomeCorso": "Scienze Umane",
+    "Descrizione": "Indirizzo che approfondisce psicologia, pedagogia, sociologia e antropologia, ideale per professioni educative e sociali."
+  },
+  {
+    "NomeCorso": "Costruzioni, Ambiente e Territorio",
+    "Descrizione": "Forma tecnici in edilizia, topografia, progettazione e gestione del territorio, con attenzione a sostenibilità e sicurezza."
+  },
+  {
+    "NomeCorso": "Servizi Socio-Sanitari",
+    "Descrizione": "Percorso orientato all’assistenza alla persona, alla salute, alla comunicazione e ai servizi sociali, con competenze operative e relazionali."
+  },
+  {
+    "NomeCorso": "Enogastronomia e Ospitalità Alberghiera",
+    "Descrizione": "Indirizzo dedicato alla cucina, sala, accoglienza e gestione alberghiera, con forte componente pratica e professionale."
+  },
+  {
+    "NomeCorso": "Agraria, Agroalimentare e Agroindustria",
+    "Descrizione": "Approfondisce coltivazioni, allevamenti, trasformazione alimentare e gestione dell’ambiente, con attenzione a sostenibilità e innovazione."
+  },
+  {
+    "NomeCorso": "Grafica e Comunicazione",
+    "Descrizione": "Percorso dedicato a grafica, comunicazione visiva, multimedia, stampa e tecnologie digitali, ideale per professioni creative."
+  },
+  {
+    "NomeCorso": "Trasporti e Logistica",
+    "Descrizione": "Forma tecnici per la gestione dei trasporti, della logistica, della navigazione e dei sistemi di mobilità, con competenze organizzative e tecniche."
+  }
+]

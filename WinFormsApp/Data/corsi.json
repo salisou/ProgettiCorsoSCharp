@@ -1,0 +1,12 @@
+[
+  {
+    "CorsoId": 1,
+    "NomeCorso": "Informatica",
+    "Descrizione": "Programmazione in Python"
+  },
+  {
+    "CorsoId": 2,
+    "NomeCorso": "Informatica",
+    "Descrizione": "Sviluppo App"
+  }
+]
