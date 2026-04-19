@@ -5,7 +5,9 @@ namespace CRMScuola.Data.Database
 {
     public class CorsiRepository
     {
-        private readonly string connectionString = "Data Source=CRMScuola.db;";
+        //private readonly string connectionString = "Data Source=CRMScuola.db;";
+        private readonly string connectionString = $"Data Source={Path.Combine(Application.StartupPath, "CRMScuola.db")}";
+
 
         public CorsiRepository()
         {

@@ -36,8 +36,8 @@ namespace CRMScuola.Forms
 
             cbCorso.DataSource = null;
             cbCorso.DataSource = corsi;
-            cbCorso.DisplayMember = "NomeCorso";
-            cbCorso.ValueMember = "CorsoId";
+            cbCorso.DisplayMember = nameof(Corsi.NomeCorso);
+            cbCorso.ValueMember = nameof(Corsi.CorsoId);
         }
 
         // =========================
@@ -45,10 +45,15 @@ namespace CRMScuola.Forms
         // =========================
         private void CaricaDocenti()
         {
-            var lista = repoDocenti.GetAll();
-
-            ddgListaDocenti.DataSource = null;
-            ddgListaDocenti.DataSource = lista;
+            try
+            {
+                var corsi = repoCorsi.GetAll();
+                cbCorso.DataSource = corsi;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         // =========================

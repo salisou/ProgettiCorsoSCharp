@@ -292,6 +292,7 @@
             Controls.Add(groupBox1);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
             Name = "frmDocenti";
             StartPosition = FormStartPosition.CenterScreen;
