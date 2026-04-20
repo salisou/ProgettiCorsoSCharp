@@ -8,10 +8,18 @@ namespace CRMScuola.Data.Database
         //private readonly string connectionString = "Data Source=CRMScuola.db;";
         private readonly string connectionString = $"Data Source={Path.Combine(Application.StartupPath, "CRMScuola.db")}";
 
-
         public CorsiRepository()
         {
             CreateTablla();
+            CreaCartellaData();
+        }
+
+        private void CreaCartellaData()
+        {
+            string folder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
+
+            if (!Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
         }
 
         private void CreateTablla()

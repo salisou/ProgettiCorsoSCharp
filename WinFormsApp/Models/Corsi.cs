@@ -12,5 +12,7 @@ namespace WinFormsApp.Models
 
         [Required]
         public string Descrizione { get; set; }
+
+        public DateOnly DataInizion {  get; set; } = new DateOnly();
     }
 }

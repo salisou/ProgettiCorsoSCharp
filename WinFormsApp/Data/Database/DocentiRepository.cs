@@ -10,11 +10,24 @@ namespace WinFormsApp.Data.Database
 {
     public class DocentiRepository
     {
-        private readonly string connectionString = $"Data Source={Path.Combine(Application.StartupPath, "CRMScuola.db")}";
+        // private readonly string connectionString = $"Data Source={Path.Combine(Application.StartupPath, "CRMScuola.db")}";
+
+        private readonly string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "CRMScuola.db");
+
+        private string connectionString => $"Data Source={dbPath}";
 
         public DocentiRepository()
         {
+            CreaCartellaData();
             CreateTabella();
+        }
+
+        private void CreaCartellaData()
+        {
+            string folder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
+
+            if (!Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
         }
 
         private void CreateTabella()

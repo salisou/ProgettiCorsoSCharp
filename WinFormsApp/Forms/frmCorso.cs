@@ -102,6 +102,16 @@ namespace CRMScuola.Forms
             ConfiguraGrid();
             CaricamentoCombo();
             CaricaGrid();
+
+            if (radioButton1.Checked == true)
+            {
+                textBox1.Visible = true;
+                textBox2.Visible = true;
+            }
+            else {
+                cbNome.Visible = false;
+                txtDescrizione.Visible = false;
+            }
         }
 
         public void CaricamentoCombo()
